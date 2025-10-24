@@ -3,8 +3,7 @@ create database Mercado
 use mercado;
 create table categoria (
 idcategoria int NOT NULL primary KEY auto_increment,
- decricao varchar(45);
-);
+ decricao varchar(45));
 
 insert into categoria values(1,'higiene pessoal');
 insert into categoria values(2,'limpeza');
